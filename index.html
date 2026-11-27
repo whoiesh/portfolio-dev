@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0a0c10" />
+  <meta name="description" content="Iesh Praveen Punde — Data Engineer and Software Engineer. Experience, skills, selected work, and contact information." />
+  <title>Iesh Praveen Punde — Portfolio</title>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+  <script src="/profile.js" defer></script>
+  <script src="/script.js" defer></script>
+</head>
+<body>
+  <div class="site-shell">
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
+
+    <header class="topbar">
+      <a class="brand" href="#home" aria-label="Home">
+        <span class="brand-mark">IP<span>.</span></span>
+        <span class="brand-name" data-profile="shortName">Iesh Punde</span>
+      </a>
+      <button class="mobile-menu-button" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="main-navigation">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+      <nav class="navigation" id="main-navigation" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#work">Work</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-cta" href="#contact">Let&apos;s talk <span>↗</span></a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section-wrap" id="home">
+        <div class="hero-copy">
+          <div class="status-line"><span class="status-dot"></span><span data-profile="availability">Open to meaningful conversations</span></div>
+          <p class="hero-kicker">HELLO, I&apos;M <span data-profile="nameUpper">IESH PRAVEEN PUNDE</span></p>
+          <h1>Building reliable data systems and <span>thoughtful software.</span></h1>
+          <p class="hero-description" data-profile="intro">I work across data engineering and software delivery—building dependable pipelines, improving workflows, and supporting production systems. I enjoy turning complex requirements into practical, maintainable solutions.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">Explore my work <span>↗</span></a>
+            <a class="button button-quiet" href="#contact">Get in touch</a>
+          </div>
+          <div class="hero-meta">
+            <span><span class="meta-label">BASED IN</span><span data-profile="location">Gurugram, India</span></span>
+            <span><span class="meta-label">CURRENTLY</span><span><span data-profile="currentRole">Business Technology Solutions Associate</span> · <span data-profile="currentCompany">ZS</span></span></span>
+          </div>
+        </div>
+        <div class="hero-art" aria-label="Abstract portfolio graphic">
+          <div class="orbit orbit-outer"></div><div class="orbit orbit-inner"></div>
+          <div class="art-core">
+            <span class="core-caption">ENGINEERING<br />WITH INTENT</span>
+            <span class="core-initials" data-profile="initials">IP</span>
+            <span class="core-line"></span>
+            <span class="core-subtitle">DATA · SYSTEMS · SOFTWARE</span>
+          </div>
+          <div class="float-chip chip-top"><span class="chip-dot"></span> DATA PIPELINES</div>
+          <div class="float-chip chip-bottom">✳ &nbsp; CONTINUOUS LEARNING</div>
+          <div class="art-cross cross-one">+</div><div class="art-cross cross-two">+</div>
+          <div class="art-coordinate">28°27&apos;N<br />77°02&apos;E</div>
+        </div>
+        <a class="scroll-cue" href="#about"><span></span> SCROLL TO EXPLORE</a>
+      </section>
+
+      <section class="about-section section-wrap section-block" id="about">
+        <div class="section-heading"><div><p class="eyebrow">01 / A LITTLE ABOUT ME</p><h2>Curious by nature.<br />Engineer by practice.</h2></div></div>
+        <div class="about-grid">
+          <div class="about-lead"><span class="quote-mark">“</span><p>I like solving the kind of problems where <em>data, systems, and people</em> meet.</p></div>
+          <div class="about-body">
+            <p data-profile="about">My experience spans large-scale ETL and data migration, data quality, workflow engineering, and production support. I have worked with data platforms and regulated healthcare technology, collaborating with technical and business stakeholders to deliver reliable outcomes.</p>
+            <p>Outside the day-to-day, I keep learning, exploring new tools, and looking for better ways to build software that is useful, understandable, and resilient.</p>
+            <div class="about-facts"><div><strong>02+</strong><span>Years in technology</span></div><div><strong>03</strong><span>Professional experiences</span></div><div><strong>∞</strong><span>Things to learn</span></div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="experience-section section-wrap section-block" id="experience">
+        <div class="section-heading"><div><p class="eyebrow">02 / THE JOURNEY</p><h2>Experience that compounds.</h2></div><p class="section-note">A snapshot of the teams, products, and problems I have worked with.</p></div>
+        <div class="timeline" id="experience-list"></div>
+      </section>
+
+      <section class="work-section section-wrap section-block" id="work">
+        <div class="section-heading"><div><p class="eyebrow">03 / SELECTED WORK</p><h2>Problems worth solving.</h2></div><p class="section-note">Selected work themes drawn from my professional experience. Details are kept high-level and client-neutral.</p></div>
+        <div class="work-grid" id="work-list"></div>
+      </section>
+
+      <section class="skills-section section-wrap section-block" id="skills">
+        <div class="section-heading"><div><p class="eyebrow">04 / TOOLKIT</p><h2>Tools I use to make things work.</h2></div><p class="section-note">A practical toolkit across engineering, data platforms, and delivery.</p></div>
+        <div class="skills-grid" id="skills-list"></div>
+      </section>
+
+      <section class="contact-section section-wrap section-block" id="contact">
+        <div class="contact-panel">
+          <div class="contact-orbit"></div>
+          <div class="contact-content"><p class="eyebrow">05 / WHAT&apos;S NEXT?</p><h2>Have a good problem<br /><span>to solve?</span></h2><p class="contact-description">I&apos;m always interested in thoughtful conversations about data, software, technology, and opportunities to build useful things.</p><a class="button contact-button" id="contact-button" href="mailto:your.email@example.com">Start a conversation <span>↗</span></a></div>
+          <div class="contact-side-note">GOOD WORK<br />STARTS WITH<br />A CONVERSATION<span>— IP</span></div>
+        </div>
+        <div class="contact-links"><div><span class="meta-label">DROP A NOTE</span><a id="email-link" href="mailto:your.email@example.com">your.email@example.com</a></div><div class="social-links" id="social-links"></div></div>
+      </section>
+    </main>
+
+    <footer class="footer section-wrap"><a class="brand" href="#home"><span class="brand-mark">IP<span>.</span></span></a><p>Designed &amp; built with care.</p><span>© <span id="year"></span> <span data-profile="name">Iesh Praveen Punde</span></span></footer>
+  </div>
+</body>
+</html>
